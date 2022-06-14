@@ -1,0 +1,63 @@
+/* Цвет основного текста #212121; */
+/* Вторичний цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* белый с прозрачностью rgba(255, 255, 255, 0.6); */
+/* лого верхнее чисто черный 000000 */
+/* основной фон белый #F5F4FA */
+/* вторичный фон #2F303A; */
+
+body{
+    color: #757575;;
+    background-color: #F5F4FA ;
+}
+
+/* Убираю точки в списках */
+ul{
+    list-style: none;
+}
+
+/* logo */
+.logo .logo-start{
+    color: #2196F3;
+}
+
+.logo .logo-end{
+    color: #000000;
+}
+
+/* site nav */
+.site-nav .link{
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+/* контакты */
+.site-contacts a{
+    color: #757575;
+}
+
+/* hero */
+.hero-title{
+    color: #000000;
+}
+
+
+/* секции */
+.section-title{
+    color: #212121;
+}
+
+/* features */
+.feature-list .list{
+    color: #212121;
+}
+
+/* workers */
+.worker-list .worker{
+    color: #212121;
+}
