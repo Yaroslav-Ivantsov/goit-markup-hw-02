@@ -7,9 +7,27 @@
 /* основной фон белый #F5F4FA */
 /* вторичный фон #2F303A; */
 
+:root {
+    --title-text-color: #212121;
+    --acent-text-color: #2196F3;
+    --secondary-text-colar: #757575;
+    --black-text-color: #000000;
+    --white-text-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+    --primery-background-color: #F5F4FA;
+    --cont-list-colar: rgba(255, 255, 255, 0.6);
+    
+}
+
+
+
+
+
+
+
 body{
-    color: #757575;;
-    background-color: #F5F4FA ;
+    color: var(--secondary-text-colar);
+    background-color: var(--primery-background-color);
 }
 
 /* Убираю точки в списках */
@@ -19,45 +37,107 @@ ul{
 
 /* logo */
 .logo .logo-start{
-    color: #2196F3;
+    color: var(--acent-text-color);
 }
 
 .logo .logo-end{
-    color: #000000;
+    color: var(--black-text-color);
 }
 
 /* site nav */
 .site-nav .link{
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--acent-text-color);
+}
+
+.site-nav .link.current{
+    color: var(--acent-text-color);
 }
 
 /* контакты */
-.site-contacts a{
-    color: #757575;
+.site-contacts .contacts-link{
+    color: var(--secondary-text-colar);
+}
+
+.site-contacts .contacts-link:hover,
+.site-contacts .contacts-link:focus{
+    color: var(--acent-text-color);
 }
 
 /* hero */
+.hero{
+    background-color: var(--secondary-background-color);
+}
+
 .hero-title{
-    color: #000000;
+    color: var(--white-text-color);
 }
 
 
 /* секции */
 .section-title{
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 /* features */
 .feature-list .list{
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 /* workers */
 .worker-list .worker{
-    color: #212121;
+    color: var(--title-text-color);
 }
+
+/* fotter */
+
+footer{
+    background-color: var(--secondary-background-color);
+}
+
+/* fotter-logo */
+
+.logo-footer .logo-footer-start{
+    color: var(--acent-text-color);
+}
+
+.logo-footer .logo-footer-end{
+    color: var(--white-text-color);
+}
+
+/* fotter-contacts */
+
+.contacts-nav .place-list{
+    color: var(--white-text-color);
+}
+
+.contacts-nav .place-list:hover,
+.contacts-nav .place-list:focus{
+    color: var(--acent-text-color);
+}
+
+.contacts-nav .cont-list{
+    color: var(--cont-list-colar);
+}
+
+.contacts-nav .cont-list:hover,
+.contacts-nav .cont-list:focus{
+    color: var(--acent-text-color);
+}
+
+button{
+    background-color: var(--acent-text-color);
+    color: var(--white-text-color);
+}
+
+button:hover,
+button:focus{
+    background-color: #188CE8;
+}
+
+
+
