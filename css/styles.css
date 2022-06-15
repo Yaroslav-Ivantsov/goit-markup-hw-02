@@ -166,6 +166,12 @@ footer{
 .logo-footer{
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+        
+    
+        
 }
 
 
@@ -184,6 +190,9 @@ footer{
 
 .contacts-nav .place-list{
     color: var(--white-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;   
 }
 
 .contacts-nav .place-list:hover,
@@ -193,6 +202,9 @@ footer{
 
 .contacts-nav .cont-list{
     color: var(--cont-list-colar);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;     
 }
 
 .contacts-nav .cont-list:hover,
