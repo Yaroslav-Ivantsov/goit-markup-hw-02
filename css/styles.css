@@ -28,14 +28,27 @@
 body{
     color: var(--secondary-text-colar);
     background-color: var(--primery-background-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    
 }
 
 /* Убираю точки в списках */
 ul{
     list-style: none;
+    
 }
 
 /* logo */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
+}
+
 .logo .logo-start{
     color: var(--acent-text-color);
 }
@@ -45,8 +58,16 @@ ul{
 }
 
 /* site nav */
+.site-nav a{
+    text-decoration: none;
+}
+
 .site-nav .link{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -59,8 +80,16 @@ ul{
 }
 
 /* контакты */
+.site-contacts a{
+    text-decoration: none;
+}
+
 .site-contacts .contacts-link{
     color: var(--secondary-text-colar);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-contacts .contacts-link:hover,
@@ -75,22 +104,56 @@ ul{
 
 .hero-title{
     color: var(--white-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 
 /* секции */
 .section-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /* features */
 .feature-list .list{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.text-list{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;   
 }
 
 /* workers */
 .worker-list .worker{
     color: var(--title-text-color);
+}
+
+.worker{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;    
+}
+
+.work-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;     
 }
 
 /* fotter */
@@ -100,6 +163,11 @@ footer{
 }
 
 /* fotter-logo */
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
 
 .logo-footer .logo-footer-start{
     color: var(--acent-text-color);
@@ -110,6 +178,9 @@ footer{
 }
 
 /* fotter-contacts */
+.contacts-nav a{
+    text-decoration: none;
+}
 
 .contacts-nav .place-list{
     color: var(--white-text-color);
@@ -129,9 +200,23 @@ footer{
     color: var(--acent-text-color);
 }
 
+address{
+    font-style: normal;
+    
+}
+
 button{
     background-color: var(--acent-text-color);
     color: var(--white-text-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 button:hover,
