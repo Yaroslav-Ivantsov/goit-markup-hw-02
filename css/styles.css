@@ -16,6 +16,7 @@
     --secondary-background-color: #2F303A;
     --primery-background-color: #F5F4FA;
     --cont-list-colar: rgba(255, 255, 255, 0.6);
+    --bg-buttom-colar: #188CE8;
     
 }
 
@@ -233,12 +234,53 @@ button{
 
 button:hover,
 button:focus{
-    background-color: #188CE8;
+    background-color: var(--bg-buttom-colar);
 }
 
 
 
 /* PORTFOLIO */
 
+/* Кнопки в портфолио */
+
+.button-nav .button-list{
+    background-color: var(--white-text-color) ;
+    color: var(--title-text-color);
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center; 
+}
+
+.button-list:hover,
+.button-list:focus{
+    background-color: var(--acent-text-color);
+    color: var(--white-text-color);
+
+}
+
+.button-list.current{
+    background-color: var(--acent-text-color);
+    color: var(--white-text-color);
+}
 
 
+/* Projects */
+
+.projects .project-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-list{
+    color: var(--secondary-text-colar);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;  
+}
